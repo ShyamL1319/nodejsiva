@@ -1,4 +1,4 @@
-# NodeJs Application
+# NodeJs Backend Application
 
 Node Js Project
 Recently I have started working on a new project and the issue that I faced was spending a lot of time building the project structure based on the best practices, especially with javascript that has a lot of approaches and bad parts, I couldn't find any place that wraps the best practices into a single project ,so I decided to make it on my own.
