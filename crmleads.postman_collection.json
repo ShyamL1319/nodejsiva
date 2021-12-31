@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "e90b30c7-b452-4db8-95d6-2ee35cba7013",
+		"name": "crmleads",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add a Lead",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":4,\n\t\"title\": \"Miss.\",\n\t\"firstName\": \"Harry\",\n\t\"lastName\": \"Peter\",\n\t\"email\": \"harry@gmail.com\",\n\t\"assignee\": \"Rita\",\n\t\"leadStatus\": \"yes\",\n\t\"leadSource\": \"unknown\",\n\t\"leadRating\": 3,\n\t\"phone\": \"1234567890\", \n\t\"companyName\": \"Satisfic\",\n\t\"industry\": \"IT\",\n\t\"adressLine1\": \"11 NP kHYALIWALA\",\n\t\"adressLine2\": \"string\",\n\t\"city\": \"Ramnagar\",\n\t\"state\": \"Uttarakhand\",\n\t\"country\": \"India\",\n\t\"zipcode\": \"455643\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/leads/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All leads data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/leads/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a lead by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/leads/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a lead by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/leads/22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update lead by id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Mrs\",\n    \"firstName\":\"Renu\",\n    \"lastName\":\"Chaudhary\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/leads/18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						"18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update bulk data with multiple ids",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ids\":[1,2,3,4,5,6],\n    \"data\":{\n        \"industry\":\"Mechanical\",\n        \"companyName\":\"Satisfic\",\n        \"leadSource\":\"Satisfic data source\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/leads/bulk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						"bulk"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload bulk data to save by csv file",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/home/shyamlal/Documents/simplilearn/iva/app/convertcsv.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/leads/bulk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						"bulk"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
