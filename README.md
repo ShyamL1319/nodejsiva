@@ -16,7 +16,7 @@ i've followed airbnb Coding standard with a eslint ,help to keep thing into pres
 How to start the project
 First you clone the project using the following command :
 
-# git clone https://github.com/shyamlal98/nodejsiva.git
+# git clone git@github.com:shyamlal98/nodejsiva.git
 
 install node version 16.3.0 or use nvm to downgrade your node version
 
