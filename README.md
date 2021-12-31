@@ -32,9 +32,9 @@ You don't to create a table seperately it will automaticaly create the table
 
 Finally you run npm start
 
-now try to access the end points
+now try to access the end points you can take help of this link
 
-
+https://github.com/shyamlal98/nodejsiva/blob/master/crmleads.postman_collection.json
 
 
 
@@ -64,3 +64,14 @@ This is the most important endpoint and it should be built very well, with dupli
 `PATCH /leads/bulk` - For updating any field of a list of `Lead` objects, defined by the `id` field in the request body. The `id` field should be an array of `Lead` object ids.
 
 `DELETE /leads/{id}` - Delete a particular lead.
+
+
+
+References 
+	https://sequelize.org/v3/
+	https://www.npmjs.com/package/sequelize
+	https://www.postgresqltutorial.com/
+	https://expressjs.com/en/guide/routing.html
+	https://www.npmjs.com/package/json2csv
+	https://www.npmjs.com/package/fast-csv
+	https://www.npmjs.com/package/express
