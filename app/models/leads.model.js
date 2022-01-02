@@ -1,9 +1,9 @@
 module.exports = (sequelize, Sequelize)=>{
-    const Leads = sequelize.define("crmleads", {
+    const Leads = sequelize.define("crmlead1s", {
       id:{
-        type:Sequelize.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
+        type: Sequelize.UUID,
+        defaultValue: Sequelize.UUIDV1,
+        primaryKey: true
       },
       title: {
         type : Sequelize.STRING

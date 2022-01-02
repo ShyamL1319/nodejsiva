@@ -1,0 +1,7 @@
+"id","title","firstName","lastName","email","assignee","leadStatus","leadSource","leadRating","phone","companyName","industry","adressLine1","adressLine2","city","state","country","zipcode","createdAt","createdAt"
+16,"Miss.","Harry","Peter","harry16@gmail.com","Rita","yes","unknown",3,"1234567890","Satisfic","IT","11 NP kHYALIWALA","string","Ramnagar","Uttarakhand","India","455643","2021-12-30T19:29:41.402Z","2021-12-30T19:29:41.402Z"
+23,"Miss.","Harry","Peter","harry23@gmail.com","Rita","yes","unknown",3,"1234567890","Satisfic","IT","11 NP kHYALIWALA","string","Ramnagar","Uttarakhand","India","455643","2021-12-30T19:36:31.251Z","2021-12-30T19:36:31.251Z"
+25,"Miss.","Harry","Peter","harry25@gmail.com","Rita","yes","unknown",3,"1234567890","Satisfic","IT","11 NP kHYALIWALA","string","Ramnagar","Uttarakhand","India","455643","2021-12-30T19:36:31.251Z","2021-12-30T19:36:31.251Z"
+21,"Miss.","Harry","Peter","harry21@gmail.com","Rita","yes","unknown",3,"1234567890","Satisfic","IT","11 NP kHYALIWALA","string","Ramnagar","Uttarakhand","India","455643","2021-12-30T19:32:06.462Z","2021-12-30T19:32:06.462Z"
+15,"Miss.","Harry","Peter","harry15@gmail.com","Rita","yes","unknown",3,"1234567890","Satisfic","IT","11 NP kHYALIWALA","string","Ramnagar","Uttarakhand","India","455643","2021-12-30T14:21:20.156Z","2021-12-30T14:21:20.156Z"
+18,"Mrs","Renu","Chaudhary","harry18@gmail.com","Rita","yes","unknown",3,"1234567890","Satisfic","IT","11 NP kHYALIWALA","string","Ramnagar","Uttarakhand","India","455643","2021-12-30T14:21:20.151Z","2021-12-30T14:21:20.151Z"

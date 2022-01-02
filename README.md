@@ -68,7 +68,7 @@ This is the most important endpoint and it should be built very well, with dupli
 
 
 References 
-	https://sequelize.org/v3/
+	https://sequelize.org/v4/manual/tutorial/associations.html(best to learn ORM Seqelize)
 	https://www.npmjs.com/package/sequelize
 	https://www.postgresqltutorial.com/
 	https://expressjs.com/en/guide/routing.html
