@@ -1,0 +1,3 @@
+title,firstName,lastName,email,assignee,leadStatus,leadSource,leadRating,phone,companyName,industry,adressLine1,adressLine2,city,state,country,zipcode
+Mr.,Harry,Peter,harry2@gmail.com,Rita,yes,unknown,3,1234567890,Satisfic,IT,11 NP kHYALIWALA,string,Ramnagar,Uttarakhand,India,455643
+Mr.,Harry,Peter,harry14@gmail.com,Rita,yes,unknown,3,1234567890,Satisfic,IT,11 NP kHYALIWALA,string,Ramnagar,Uttarakhand,India,455643

@@ -13,7 +13,7 @@ const getPagingData = (data, page, limit) => {
   };
 
 const getPagination = (page, size) => {
-    const limit = size ? +size : 15;
+    const limit = size ? +size : 5;
     const offset = page-1 ? page * limit : 0;
   
     return { limit, offset };
@@ -21,7 +21,7 @@ const getPagination = (page, size) => {
 const  isEmailUnique = async (email)=> {
     const count = await Leads.count({ where: { email: email } })
         if (count != 0) {
-          logger.log(count);
+          logger.info(count);
           return false;
         }
         return true;
@@ -31,11 +31,11 @@ const  isEmailUnique = async (email)=> {
 //   var csv =  json2csv.parse({ data: duplicates, fields: fields });
 //   var filename = 'duplicates'+Date.now()+'.csv';
 //   var path = __basedir+'/assets/reports/'+filename;
-//   logger.log("file path jsontocsv",path)
+//   logger.info("file path jsontocsv",path)
 //    fs.writeFile(path, csv, function(err,data) {
 //     if (err) {throw err;}
 //     else{ 
-//       logger.log('file saved path generated') // This is what you need
+//       logger.info('file saved path generated') // This is what you need
 //       return filename;
 //     }
 //   }); 
@@ -54,7 +54,7 @@ const leadController = {
 
             }
           }catch (error) {
-            logger.log(error);
+            logger.info(error);
             res.status(404).send({msg :error});
           }
         Leads.create(reqData)
@@ -64,7 +64,7 @@ const leadController = {
 
              })
              .catch((err)=>{
-               logger.log("err : " +  err.message);
+               logger.info("err : " +  err.message);
                res.status(500).send("Internal server error");
              });
     },
@@ -85,7 +85,7 @@ const leadController = {
             res.status(201).json({msg:"data recieved successfully",data});
 
           }).catch(err => {
-            logger.log("Some error occurred while retrieving"+ err.message)
+            logger.info("Some error occurred while retrieving"+ err.message)
             res.status(500).send({
                 message:
                 err.message || "Some error occurred while retrieving"
@@ -104,7 +104,7 @@ const leadController = {
                 logger.info("data recieved successfully "+data)
                 })
                 .catch(err => {
-                logger.log("Some error occurred while retrieving")
+                logger.info("Some error occurred while retrieving")
                 res.status(500).send({
                     message:
                     err.message || "Some error occurred while retrieving Leads."
@@ -118,7 +118,7 @@ const leadController = {
           var err;
           try  {
             if (req.file == undefined) {
-              logger.log("No file attached please select a file")
+              logger.info("No file attached please select a file")
               return res.status(400).send("Please upload a CSV file!");
             }
             let path = __basedir + "/assets/uploads/" + req.file.filename;
@@ -126,7 +126,7 @@ const leadController = {
             fs.createReadStream(path)
               .pipe(csv.parse({ headers: true }))
               .on("error", (error) => {
-                logger.log("Unable to save file :"+error.message)
+                logger.info("Unable to save file :"+error.message)
                 throw error.message;
                 
               })
@@ -135,75 +135,87 @@ const leadController = {
               })
               .on("end",() => {
                 logger.info("data read successfully now updating in data base");
-                var emails = leads.map(obj => ({email:obj.email}));
-                Leads.findAndCountAll({
+                var emails = leads.map(obj => (obj.email));
+                logger.info("emails to be updated : => "+emails)
+                Leads.findAll({
                   where:{
-                    [Op.or]:emails
+                    email:emails
                   }
                 }).then((result)=>{
-                logger.info(result);
-                duplicates = result.rows.map((data)=> data.dataValues);
+                  var duplicateData = result.map((data)=> data.dataValues)
+                  logger.info(duplicateData);
+
+                duplicates = result.map((data)=> data.dataValues.email);
+                logger.info("duplicates "+duplicates);
+                var leadtobeupdated = leads.filter(lead => {
+                  if(duplicates.indexOf(lead.email) == -1)
+                   return lead;
+                });
+                logger.info("lead to length "+leadtobeupdated.length);
+                logger.info("to be updated "+JSON.stringify(leadtobeupdated));
                 if(duplicates.length == 0 || duplicates.length != leads.length){
-                  Leads.bulkCreate(leads,{ignoreDuplicates: true}).then((result)=>{
-                    if(duplicates.length === 0){
-                      logger.info("data read successfully now updated  in database No duplicate were there");
-                      res.status(201).send({
-                        message:
-                          "Uploaded successfully All data from" + req.file.originalname,
-                          data:result
-                      });
-                    }else{
-                      logger.info("data read successfully now updated  in database and duplicate were there also");
-                      logger.log(duplicates);
-                      var fields = ['id','title','firstName','lastName','email','assignee','leadStatus','leadSource','leadRating','phone','companyName','industry','adressLine1','adressLine2','city','state','country','zipcode','createdAt','createdAt'];
-                      const parser = new Parser({fields});
-                      var csv =  parser.parse(duplicates);
-                      var filename = 'duplicates'+Date.now()+'.csv';
-                      var path = __basedir+'/assets/reports/'+filename;
-                      logger.log("file path jsontocsv",path)
-                       fs.writeFile(path, csv, function(err,data) {
-                        if (err) {throw err;}
-                        else{ 
-                          logger.log('file saved path generated') // This is what you need
-                        }
-                      }); 
-                      logger.info("data generated and send the path to client")
-                      res.status(409).json({
-                        message:
-                        `Partialy  data saved  duplicate are here `,
-                        "created": result.length,
-                        "duplicates": duplicates.length,
-                        "error": err==undefined?0:err,
-                        "report": `${__baseurl}/api/leads/download/${filename}`
-                      });
-                    }
-                 });                   
+                  if(leadtobeupdated){
+                    Leads.bulkCreate(leadtobeupdated,{ignoreDuplicates:true}).then((result)=>{
+                      if(duplicates.length == 0){
+                        logger.info("data read successfully now updated  in database No duplicate were there");
+                        res.status(201).send({
+                          message:
+                            "Uploaded successfully All data from" + req.file.originalname,
+                            data:result
+                        });
+                      }else{
+                        logger.info("data read successfully now updated  in database and duplicate were there also");
+                        logger.info(duplicateData);
+                        var fields = ['id','title','firstName','lastName','email','assignee','leadStatus','leadSource','leadRating','phone','companyName','industry','adressLine1','adressLine2','city','state','country','zipcode','createdAt','createdAt'];
+                        const parser = new Parser({fields});
+                        var csv =  parser.parse(duplicateData);
+                        var filename = 'duplicates'+Date.now()+'.csv';
+                        var path = __basedir+'/assets/reports/'+filename;
+                        logger.info("file path jsontocsv",path)
+                         fs.writeFile(path, csv, function(err,data) {
+                          if (err) {throw err;}
+                          else{ 
+                            logger.info('file saved path generated') // This is what you need
+                          }
+                        }); 
+                        logger.info("data generated and send the path to client")
+                        res.status(409).json({
+                          message:
+                          `Partialy  data saved  duplicate are here `,
+                          "created": leads.length - duplicates.length,
+                          "duplicates": duplicates.length,
+                          "error": err==undefined?0:err,
+                          "report": `${__baseurl}/api/leads/download/${filename}`
+                        });
+                      }
+                   }); 
+                  }
                 }else{
-                  logger.log(duplicates);
+                  logger.info(duplicates);
                   var fields = ['id','title','firstName','lastName','email','assignee','leadStatus','leadSource','leadRating','phone','companyName','industry','adressLine1','adressLine2','city','state','country','zipcode','createdAt','createdAt'];
                   const parser = new Parser({fields});
-                  var csv =  parser.parse(duplicates);
+                  var csv =  parser.parse(duplicateData);
                   var filename = 'duplicates'+Date.now()+'.csv';
                   var path = __basedir+'/assets/reports/'+filename;
-                  logger.log("file path jsontocsv",path)
+                  logger.info("file path jsontocsv",path)
                    fs.writeFile(path, csv, function(err,data) {
                     if (err) {throw err;}
                     else{ 
-                      logger.log('file saved path generated') // This is what you need
+                      logger.info('file saved path generated') // This is what you need
                     }
                   }); 
                   logger.info("data read successfully All data were duplicate so no change in database");
                   res.status(409).json({
                      message:
                      `All  data are  duplicate No data saved `,
-                     "created": result.length,
+                     "created": leads.length - duplicates.length,
                      "duplicates": duplicates.length,
-                     "error": err==undefined?0:err,
+                     "error": err==undefined ? 0 : err,
                      "report": `${__baseurl}/api/leads/download/${filename}`
                   });
                 }
               }).catch(err =>{
-                logger.log("Internal Server Error " +err.message);
+                logger.info("Internal Server Error " +err.message);
                 res.status(500).json({
                   message:
                   `Internal server issue ${err} `,
@@ -211,7 +223,7 @@ const leadController = {
               });
             });
           } catch (error) {
-            logger.log(error);
+            logger.info(error);
             res.status(500).json({
               message:
               `Internal server issue ${error} `,
@@ -221,14 +233,14 @@ const leadController = {
     update: (req,res)=>{
           const id = req.params.id;
           if(!id){
-            logger.log("Invalid entered");
+            logger.info("Invalid entered");
             res.status(401).send({message:"Please enter valid id"})
           }
           Leads.findOne({where: {id}})
                 .then(record => {
 
                   if (!record) {
-                    logger.log("No record found with this id:"+id);
+                    logger.info("No record found with this id:"+id);
                     throw new Error('No record found')
                   }
 
@@ -240,7 +252,7 @@ const leadController = {
                   })
                 })
                 .catch((error) => {
-                  logger.log("Internal Server Error " +error.message);
+                  logger.info("Internal Server Error " +error.message);
                   res.status(500).send({msg:"Internal Server Error"+error.message});
                   throw new Error(error)
                 });
@@ -253,10 +265,10 @@ const leadController = {
                     id: ids
                   }},
               ).then((result)=>{
-                   logger.log(result);
+                   logger.info(result);
                    res.status(201).send({msg:"successfully updated",data:result});
               }).catch((err)=>{
-                    logger.log("Internal Server Error " +err.message);
+                    logger.info("Internal Server Error " +err.message);
                     res.status(500).send({msg:"Internal Server Error"+err.message});
                     throw new Error(err);
               });
@@ -264,23 +276,29 @@ const leadController = {
     delete : (req,res)=>{
             const id = req.params.id;
             if(!id){
-              logger.log("Id is empty please add valid id : "+id);
+              logger.info("Id is empty please add valid id : "+id);
               res.status(401).send({message:"Please enter valid id"})
             }
             Leads.destroy({
               where: {id}
             }).then(result => {
-              logger.info("succssfull deleted data related with id : "+id);
-              res.status(201).send({msg:`succssfull deleted data`});
+              if(result!=0){
+                logger.info("succssfull deleted data related with id : "+id);
+                res.status(201).send({msg:`succssfull deleted data`});
+              }else{
+                logger.info("Data does not exist with this inf : "+id);
+                res.status(201).send({msg:"Data does not exist with this info !"});
+              }
+
             }).catch(error => {
-              logger.log("Internal Server error : "+id);
+              logger.info("Internal Server error : "+id);
               res.status(500).send({msg:`Internal Server error`});
             });
     },
     download:(req,res)=>{
      var fname =req.params.filename;
      var path = __basedir+"/assets/reports/"+fname; 
-     logger.log(" downloaded file duplicates",path)
+     logger.info(" downloaded file duplicates",path)
      res.set('Content-Type', 'text/csv');
      res.status(201).download(path);
     },

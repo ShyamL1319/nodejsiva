@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\":4,\n\t\"title\": \"Miss.\",\n\t\"firstName\": \"Harry\",\n\t\"lastName\": \"Peter\",\n\t\"email\": \"harry@gmail.com\",\n\t\"assignee\": \"Rita\",\n\t\"leadStatus\": \"yes\",\n\t\"leadSource\": \"unknown\",\n\t\"leadRating\": 3,\n\t\"phone\": \"1234567890\", \n\t\"companyName\": \"Satisfic\",\n\t\"industry\": \"IT\",\n\t\"adressLine1\": \"11 NP kHYALIWALA\",\n\t\"adressLine2\": \"string\",\n\t\"city\": \"Ramnagar\",\n\t\"state\": \"Uttarakhand\",\n\t\"country\": \"India\",\n\t\"zipcode\": \"455643\"\n}",
+					"raw": "{\n\t\"title\": \"Miss.\",\n\t\"firstName\": \"Harry\",\n\t\"lastName\": \"Peter\",\n\t\"email\": \"harry0@gmail.com\",\n\t\"assignee\": \"Rita\",\n\t\"leadStatus\": \"yes\",\n\t\"leadSource\": \"unknown\",\n\t\"leadRating\": 3,\n\t\"phone\": \"1234567890\", \n\t\"companyName\": \"Satisfic\",\n\t\"industry\": \"IT\",\n\t\"adressLine1\": \"11 NP kHYALIWALA\",\n\t\"adressLine2\": \"string\",\n\t\"city\": \"Ramnagar\",\n\t\"state\": \"Uttarakhand\",\n\t\"country\": \"India\",\n\t\"zipcode\": \"455643\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,12 +36,12 @@
 			"response": []
 		},
 		{
-			"name": "Get All leads data",
+			"name": "Get All leads data with page number",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/leads/",
+					"raw": "http://localhost:8080/api/leads/?page=2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -51,6 +51,12 @@
 						"api",
 						"leads",
 						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
 					]
 				}
 			},
@@ -62,7 +68,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/leads/1",
+					"raw": "http://localhost:8080/api/leads/75c81190-6ba3-11ec-bf05-e737ab3301d4",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -71,7 +77,7 @@
 					"path": [
 						"api",
 						"leads",
-						"1"
+						"75c81190-6ba3-11ec-bf05-e737ab3301d4"
 					]
 				}
 			},
@@ -83,7 +89,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/leads/22",
+					"raw": "http://localhost:8080/api/leads/f27e5260-6baa-11ec-8502-9741100ee39d",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -92,7 +98,7 @@
 					"path": [
 						"api",
 						"leads",
-						"22"
+						"f27e5260-6baa-11ec-8502-9741100ee39d"
 					]
 				}
 			},
@@ -113,7 +119,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/leads/18",
+					"raw": "http://localhost:8080/api/leads/3b14f620-6c6c-11ec-9b42-0f3b73e61765",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -122,7 +128,7 @@
 					"path": [
 						"api",
 						"leads",
-						"18"
+						"3b14f620-6c6c-11ec-9b42-0f3b73e61765"
 					]
 				}
 			},
@@ -135,7 +141,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"ids\":[1,2,3,4,5,6],\n    \"data\":{\n        \"industry\":\"Mechanical\",\n        \"companyName\":\"Satisfic\",\n        \"leadSource\":\"Satisfic data source\"\n    }\n}",
+					"raw": "{\n    \"ids\":[\"cd7b6d31-6bba-11ec-98e6-2bc0fca13e89\",\"cd7b6d32-6bba-11ec-98e6-2bc0fca13e89\",\"cd7b6d33-6bba-11ec-98e6-2bc0fca13e89\",\"cd7b6d31-6bba-11ec-98e6-2bc0fca13e89\",\"cd7b6d34-6bba-11ec-98e6-2bc0fca13e89\",\"cd7b6d35-6bba-11ec-98e6-2bc0fca13e89\"],\n    \"data\":{\n        \"industry\":\"Mechanical\",\n        \"companyName\":\"Satisfic\",\n        \"leadSource\":\"Satisfic data source\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -197,6 +203,28 @@
 						"api",
 						"leads",
 						"bulk"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Duplicate data to down load",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/leads/download/duplicates1641200343343.csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leads",
+						"download",
+						"duplicates1641200343343.csv"
 					]
 				}
 			},

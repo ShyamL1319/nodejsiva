@@ -180,3 +180,1013 @@ TypeError: Cannot create property 'Symbol(level)' on string 'err : Cannot set he
     at DerivedLogger.log (/home/shyamlal/Documents/simplilearn/iva/node_modules/winston/lib/winston/logger.js:208:20)
     at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:67:23
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-03T05:56:29.743Z [info] error: uncaughtException: Cannot create property 'Symbol(level)' on string 'file saved path generated'
+TypeError: Cannot create property 'Symbol(level)' on string 'file saved path generated'
+    at DerivedLogger.log (/home/shyamlal/Documents/simplilearn/iva/node_modules/winston/lib/winston/logger.js:208:20)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:167:34
+    at FSReqCallback.oncomplete (node:fs:188:23)
+2022-01-03T06:01:57.394Z [info] error: uncaughtException: Cannot create property 'Symbol(level)' on string 'file saved path generated'
+TypeError: Cannot create property 'Symbol(level)' on string 'file saved path generated'
+    at DerivedLogger.log (/home/shyamlal/Documents/simplilearn/iva/node_modules/winston/lib/winston/logger.js:208:20)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:167:34
+    at FSReqCallback.oncomplete (node:fs:188:23)
+2022-01-03T06:13:30.624Z [info] error: uncaughtException: Unexpected token '['
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:142
+                    [Op.in]:emails
+                    ^
+
+SyntaxError: Unexpected token '['
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:13:32.731Z [info] error: uncaughtException: Unexpected token '['
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:142
+                    [Op.in]:emails
+                    ^
+
+SyntaxError: Unexpected token '['
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:13:34.389Z [info] error: uncaughtException: Unexpected token ':'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:142
+                    [Op.in]:emails
+                           ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:13:36.821Z [info] error: uncaughtException: Unexpected token ':'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:144
+                    [Op.in]:emails
+                           ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:23:33.165Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:145
+                }).then((result)=>{
+                 ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:24:26.397Z [info] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:142
+                  }
+                  ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:24:45.385Z [info] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:138
+                var emails = leads.map(obj => (obj.email}));
+                                                        ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:25:47.297Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:139
+                logger.info(emails +)
+                                    ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:46:54.088Z [info] error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/response.js:170:12)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:68:32
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-03T06:50:16.122Z [info] error: uncaughtException: Unexpected identifier
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:276
+              logger.info("succssfull deleted data related with id : "+id);
+              ^^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:50:17.339Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:275
+              if()
+                 ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:50:22.223Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:275
+              if(result == )
+                           ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:50:24.372Z [info] error: uncaughtException: Unexpected token '!'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:275
+              if(result!)
+                       ^
+
+SyntaxError: Unexpected token '!'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:51:23.381Z [info] error: uncaughtException: Unexpected identifier
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:280
+                res.status(201).send({msg:Data does not exist with this inf : "});
+                                               ^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:51:28.992Z [info] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:280
+                res.status(201).send({msg:});
+                                          ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:51:32.440Z [info] error: uncaughtException: Unexpected identifier
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:280
+                res.status(201).send({msg:Data does not exist with this inf : "});
+                                               ^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:59:10.941Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                if(duplicates.length == 0 || duplicates.length != leads.length){
+                ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:59:23.252Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                if(duplicates.length == 0 || duplicates.length != leads.length){
+                ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T06:59:47.312Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => )
+                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:00:04.555Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => lead.)
+                                                             ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:00:11.214Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => lead.)
+                                                             ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:00:16.006Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => lead.)
+                                                             ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:00:20.332Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => )
+                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:00:43.143Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.))
+                                                                                ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:00:53.908Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==)
+                                                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:04.884Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1 return )
+                                                                                         ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:07.479Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1 return lead)
+                                                                                         ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:09.586Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1 return lead);
+                                                                                         ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:15.961Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => ifduplicates.indexOf(lead.email)==-1 return lead);
+                                                                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:17.948Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1 return lead);
+                                                                                         ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:23.715Z [info] error: uncaughtException: Unexpected token 'return'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1? return lead);
+                                                                                            ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:25.928Z [info] error: uncaughtException: Unexpected token ':'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1?: return lead);
+                                                                                           ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:27.611Z [info] error: uncaughtException: Unexpected token 'return'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1? return lead);
+                                                                                            ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:32.526Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1?lead);
+                                                                                               ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:35.605Z [info] error: uncaughtException: Unexpected token ','
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1?lead,);
+                                                                                               ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:41.072Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => duplicates.indexOf(lead.email)==-1?lead);
+                                                                                               ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:50.638Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => if(duplicates.indexOf(lead.email)==-1?lead);
+                                                        ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:54.100Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => if(duplicates.indexOf(lead.email)==-1)?lead);
+                                                        ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:01:58.321Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => if(duplicates.indexOf(lead.email)==-1) return lead);
+                                                        ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:02:09.016Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => if(duplicates.indexOf(lead.email))==-1) return lead);
+                                                        ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:02:11.256Z [info] error: uncaughtException: Unexpected token 'if'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => if(duplicates.indexOf(lead.email)) ==-1) return lead);
+                                                        ^^
+
+SyntaxError: Unexpected token 'if'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:02:20.048Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:148
+                var leadtobeupdated = leads.map(lead => );
+                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:02:25.733Z [info] error: uncaughtException: Unexpected token '=='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                  if(duplicates.indexOf(lead.email)) ==-1) return lead
+                                                     ^^
+
+SyntaxError: Unexpected token '=='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:02:38.769Z [info] error: uncaughtException: Unexpected token '=='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                  if(duplicates.indexOf(lead.email)) ==-1)
+                                                     ^^
+
+SyntaxError: Unexpected token '=='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:02:43.698Z [info] error: uncaughtException: Unexpected token '=='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                  if(duplicates.indexOf(lead.email)) == -1)
+                                                     ^^
+
+SyntaxError: Unexpected token '=='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:04:10.330Z [info] error: uncaughtException: Unexpected token '=='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                  if(duplicates.indexOf(lead.email)) == -1)
+                                                     ^^
+
+SyntaxError: Unexpected token '=='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:04:11.511Z [info] error: uncaughtException: Unexpected token '=='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                  if(duplicates.indexOf(lead.email)) == -1)
+                                                     ^^
+
+SyntaxError: Unexpected token '=='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T07:08:01.064Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:152
+                console.log(""leadtobeupdated);
+                            ^^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:04:40.659Z [info] error: uncaughtException: Unexpected identifier
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:118
+          let leads = [];
+              ^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:18:18.250Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:150
+                logger.info(""dupdata);
+                            ^^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:18:34.019Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:149
+                logger.info(""duplicates);
+                            ^^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:39:11.724Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:146
+                dupdata.push(result.map((data)=> {data.dataValues));
+                                                                 ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:40:21.650Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:146
+                  var datat = result.map((data)=> {data.dataValues)
+                                                                  ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:53:32.817Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:201
+                     console.log(""data);
+                                 ^^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T08:57:18.940Z [info] error: uncaughtException: Unexpected token '='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:146
+                  var  = result.map((data)=> data.dataValues)
+                       ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:23:18.491Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:156
+                logger.info("to be updated "+JSON.stringify(leadtobeupdated);
+                                                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:31:00.521Z [info] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:156
+                });
+                ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:31:01.932Z [info] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:157
+                });
+                ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:37:33.346Z [info] error: uncaughtException: Unexpected token ')'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:159
+                  if()
+                     ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:39:08.736Z [info] error: uncaughtException: missing ) after argument list
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:156
+                console.log(leadtobeupdated.length
+                                            ^^^^^^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:43:12.129Z [info] error: uncaughtException: Unexpected token '='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:117
+          var =[];
+              ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:43:13.103Z [info] error: uncaughtException: Unexpected token '='
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:117
+          var=[];
+             ^
+
+SyntaxError: Unexpected token '='
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-03T09:43:14.766Z [info] error: uncaughtException: Unexpected token ':'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:151
+                logger.inf : );
+                           ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
