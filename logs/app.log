@@ -1,0 +1,417 @@
+{"date":"Sun Jan 02 2022 16:49:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: morgan is not defined\nReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.95,1.19,1.2],"uptime":123678.55},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":254817,"external":1869748,"heapTotal":17686528,"heapUsed":10978200,"rss":50081792},"pid":128080,"uid":1000,"version":"v16.13.1"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:49:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: morgan is not defined\nReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.89,1.17,1.19],"uptime":123684.74},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":269899,"external":1869748,"heapTotal":17424384,"heapUsed":10989376,"rss":51240960},"pid":128114,"uid":1000,"version":"v16.13.1"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:49:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: morgan is not defined\nReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.78,1.13,1.18],"uptime":123708.53},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":269899,"external":1869748,"heapTotal":17424384,"heapUsed":10921440,"rss":50892800},"pid":128179,"uid":1000,"version":"v16.13.1"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:49:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: morgan is not defined\nReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.9,1.14,1.18],"uptime":123716.16},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":269899,"external":1869748,"heapTotal":17162240,"heapUsed":11155640,"rss":51007488},"pid":128212,"uid":1000,"version":"v16.13.1"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:50:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: morgan is not defined\nReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[1.24,1.2,1.2],"uptime":123774.8},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":269899,"external":1869748,"heapTotal":17424384,"heapUsed":11062984,"rss":50167808},"pid":128522,"uid":1000,"version":"v16.13.1"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:51:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: morgan is not defined\nReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[1.84,1.35,1.25],"uptime":123800.02},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":269899,"external":1869748,"heapTotal":17686528,"heapUsed":10957720,"rss":51073024},"pid":128604,"uid":1000,"version":"v16.13.1"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:57:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: app.use() requires a middleware function\nTypeError: app.use() requires a middleware function\n    at Function.use (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/application.js:210:11)\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.4,0.87,1.08],"uptime":124207.95},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":278091,"external":1918238,"heapTotal":17686528,"heapUsed":11438024,"rss":49811456},"pid":130071,"uid":1000,"version":"v16.13.1"},"stack":"TypeError: app.use() requires a middleware function\n    at Function.use (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/application.js:210:11)\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/application.js","function":"Function.use","line":210,"method":"use","native":false},{"column":5,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:58:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: winston is not a function\nTypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.56,0.86,1.08],"uptime":124233.03},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":292008,"external":1918238,"heapTotal":17686528,"heapUsed":11447712,"rss":50675712},"pid":130183,"uid":1000,"version":"v16.13.1"},"stack":"TypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":9,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:58:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: winston is not a function\nTypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[0.6,0.87,1.08],"uptime":124238.51},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":278091,"external":1918238,"heapTotal":17686528,"heapUsed":11221488,"rss":50921472},"pid":130211,"uid":1000,"version":"v16.13.1"},"stack":"TypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":9,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:59:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: winston is not a function\nTypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[1.03,0.94,1.09],"uptime":124300.48},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":286283,"external":1918238,"heapTotal":17686528,"heapUsed":11311560,"rss":50257920},"pid":130492,"uid":1000,"version":"v16.13.1"},"service":"user-service","stack":"TypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":9,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 16:59:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: winston is not a function\nTypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[1.43,1.02,1.11],"uptime":124304.61},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":286283,"external":1918238,"heapTotal":17686528,"heapUsed":11377184,"rss":51585024},"pid":130520,"uid":1000,"version":"v16.13.1"},"service":"user-service","stack":"TypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":9,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Sun Jan 02 2022 17:06:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: winston is not a function\nTypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[1.56,0.98,1.01],"uptime":124737.44},"process":{"argv":["/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","/home/shyamlal/Documents/simplilearn/iva/server.js"],"cwd":"/home/shyamlal/Documents/simplilearn/iva","execPath":"/home/shyamlal/.nvm/versions/node/v16.13.1/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":300200,"external":1648183,"heapTotal":17686528,"heapUsed":11398568,"rss":52551680},"pid":131506,"uid":1000,"version":"v16.13.1"},"service":"user-service","stack":"TypeError: winston is not a function\n    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/server.js:9:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":9,"file":"/home/shyamlal/Documents/simplilearn/iva/server.js","function":null,"line":9,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"level":"info","message":"Server is running on port 8080.","service":"user-service"}
+{"level":"info","message":"Server is running on port 8080.","service":"user-service"}
+2022-01-02T12:11:50.010Z [right meow!] info: File uploaded successfully
+2022-01-02T12:11:50.015Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:14:02.653Z [right meow!] info: File uploaded successfully
+2022-01-02T14:14:02.658Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:14:30.127Z [right meow!] warn: Conflicting data .....!
+2022-01-02T14:14:30.137Z [right meow!] info: ::1 - - [02/Jan/2022:14:14:30 +0000] "POST /api/leads/ HTTP/1.1" 409 48 "-" "PostmanRuntime/7.26.8"
+
+2022-01-02T14:14:30.169Z [right meow!] error: err : Cannot set headers after they are sent to the client
+2022-01-02T14:14:30.173Z [right meow!] error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/response.js:170:12)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:66:32
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-02T14:15:17.295Z [right meow!] info: File uploaded successfully
+2022-01-02T14:15:17.300Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:16:43.034Z [right meow!] info: File uploaded successfully
+2022-01-02T14:16:43.039Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:16:45.326Z [right meow!] info: File uploaded successfully
+2022-01-02T14:16:45.333Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:16:46.559Z [right meow!] error: uncaughtException: Unexpected token '{'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:52
+            if(data){
+                    ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:16:47.785Z [right meow!] info: File uploaded successfully
+2022-01-02T14:16:47.790Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:16:50.760Z [right meow!] error: uncaughtException: Unexpected token '{'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:52
+            if(data){
+                    ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:16:51.758Z [right meow!] error: uncaughtException: Unexpected token '('
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:51
+            logger.()
+                   ^
+
+SyntaxError: Unexpected token '('
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:16:55.018Z [right meow!] info: File uploaded successfully
+2022-01-02T14:16:55.023Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:16:56.900Z [right meow!] info: File uploaded successfully
+2022-01-02T14:16:56.905Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:16:59.018Z [right meow!] info: File uploaded successfully
+2022-01-02T14:16:59.022Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:17:00.872Z [right meow!] info: File uploaded successfully
+2022-01-02T14:17:00.877Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:17:09.911Z [right meow!] info: [object SequelizeInstance:crmlead1s]
+2022-01-02T14:17:09.914Z [right meow!] warn: Conflicting data .....!
+2022-01-02T14:17:09.934Z [right meow!] info: ::1 - - [02/Jan/2022:14:17:09 +0000] "POST /api/leads/ HTTP/1.1" 409 48 "-" "PostmanRuntime/7.26.8"
+
+2022-01-02T14:17:09.959Z [right meow!] error: err : Cannot set headers after they are sent to the client
+2022-01-02T14:17:09.962Z [right meow!] error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/response.js:170:12)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:67:32
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-02T14:18:00.034Z [right meow!] info: File uploaded successfully
+2022-01-02T14:18:00.039Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:18:02.595Z [right meow!] info: File uploaded successfully
+2022-01-02T14:18:02.600Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:18:06.059Z [right meow!] info: File uploaded successfully
+2022-01-02T14:18:06.064Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:18:08.794Z [right meow!] info: File uploaded successfully
+2022-01-02T14:18:08.799Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:18:12.828Z [right meow!] info: ::1 - - [02/Jan/2022:14:18:12 +0000] "POST /api/leads/ HTTP/1.1" 404 10 "-" "PostmanRuntime/7.26.8"
+
+2022-01-02T14:18:12.831Z [right meow!] error: uncaughtException: loggers.error is not a function
+TypeError: loggers.error is not a function
+    at add (/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:58:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-02T14:21:13.115Z [right meow!] info: File uploaded successfully
+2022-01-02T14:21:13.120Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:21:14.623Z [right meow!] error: uncaughtException: Unexpected token '('
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:58
+            loggers.(error.message);
+                    ^
+
+SyntaxError: Unexpected token '('
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:21:17.845Z [right meow!] info: File uploaded successfully
+2022-01-02T14:21:17.851Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:21:25.175Z [right meow!] error: uncaughtException: Unexpected token '('
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:58
+            loggers.(error.message);
+                    ^
+
+SyntaxError: Unexpected token '('
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:21:32.282Z [right meow!] info: File uploaded successfully
+2022-01-02T14:21:32.287Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:21:46.667Z [right meow!] info: File uploaded successfully
+2022-01-02T14:21:46.672Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:21:50.296Z [right meow!] info: File uploaded successfully
+2022-01-02T14:21:50.301Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:21:52.863Z [right meow!] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:76
+        }
+        ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:21:59.454Z [right meow!] info: File uploaded successfully
+2022-01-02T14:21:59.460Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:22:01.987Z [right meow!] info: File uploaded successfully
+2022-01-02T14:22:01.991Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:22:06.721Z [right meow!] info: File uploaded successfully
+2022-01-02T14:22:06.725Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:22:19.947Z [right meow!] info: File uploaded successfully
+2022-01-02T14:22:19.952Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:22:42.363Z [right meow!] info: File uploaded successfully
+2022-01-02T14:22:42.367Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:22:44.904Z [right meow!] info: File uploaded successfully
+2022-01-02T14:22:44.909Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:22:58.490Z [right meow!] error: uncaughtException: Invalid or unexpected token
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:80
+              res.status(404).send({msg:"No data available"});\
+                                                              ^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:23:00.505Z [right meow!] info: File uploaded successfully
+2022-01-02T14:23:00.510Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:23:01.568Z [right meow!] info: File uploaded successfully
+2022-01-02T14:23:01.572Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:23:12.131Z [right meow!] info: File uploaded successfully
+2022-01-02T14:23:12.136Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:23:23.207Z [right meow!] info: File uploaded successfully
+2022-01-02T14:23:23.211Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:23:46.348Z [right meow!] info: File uploaded successfully
+2022-01-02T14:23:46.353Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:23:48.907Z [right meow!] info: File uploaded successfully
+2022-01-02T14:23:48.912Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:24:20.184Z [right meow!] info: File uploaded successfully
+2022-01-02T14:24:20.189Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:24:38.091Z [right meow!] info: File uploaded successfully
+2022-01-02T14:24:38.096Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:24:39.853Z [right meow!] info: File uploaded successfully
+2022-01-02T14:24:39.857Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:24:42.874Z [right meow!] info: File uploaded successfully
+2022-01-02T14:24:42.879Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:24:46.101Z [right meow!] info: File uploaded successfully
+2022-01-02T14:24:46.107Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:24:47.062Z [right meow!] error: uncaughtException: Unexpected token '}'
+/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:90
+        });
+        ^
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/shyamlal/Documents/simplilearn/iva/app/routes/leads.route.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+2022-01-02T14:25:13.620Z [right meow!] info: File uploaded successfully
+2022-01-02T14:25:13.625Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:25:15.364Z [right meow!] info: File uploaded successfully
+2022-01-02T14:25:15.371Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:25:16.744Z [right meow!] info: File uploaded successfully
+2022-01-02T14:25:16.748Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:25:29.124Z [right meow!] info: File uploaded successfully
+2022-01-02T14:25:29.129Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:25:30.240Z [right meow!] info: File uploaded successfully
+2022-01-02T14:25:30.244Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:25:37.683Z [right meow!] info: File uploaded successfully
+2022-01-02T14:25:37.688Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:09.320Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:09.325Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:10.366Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:10.370Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:38.716Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:38.721Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:40.498Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:40.503Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:41.693Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:41.697Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:45.430Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:45.435Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:26:50.208Z [right meow!] info: File uploaded successfully
+2022-01-02T14:26:50.212Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:02.002Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:02.006Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:04.761Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:04.766Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:06.376Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:06.380Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:39.236Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:39.242Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:40.389Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:40.394Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:45.143Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:45.149Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:53.432Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:53.436Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:27:56.921Z [right meow!] info: File uploaded successfully
+2022-01-02T14:27:56.926Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:28:36.925Z [right meow!] info: File uploaded successfully
+2022-01-02T14:28:36.930Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:29:03.605Z [right meow!] info: ::1 - - [02/Jan/2022:14:29:03 +0000] "POST /api/leads/ HTTP/1.1" 404 10 "-" "PostmanRuntime/7.26.8"
+
+2022-01-02T14:29:03.608Z [right meow!] error: uncaughtException: loggers.log is not a function
+TypeError: loggers.log is not a function
+    at add (/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:57:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-02T14:29:49.223Z [right meow!] info: File uploaded successfully
+2022-01-02T14:29:49.227Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:30:30.121Z [right meow!] info: File uploaded successfully
+2022-01-02T14:30:30.126Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:30:34.167Z [right meow!] info: File uploaded successfully
+2022-01-02T14:30:34.172Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:30:51.861Z [right meow!] info: File uploaded successfully
+2022-01-02T14:30:51.865Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:31:10.469Z [right meow!] info: [object SequelizeInstance:crmlead1s]
+2022-01-02T14:31:10.472Z [right meow!] warn: Conflicting data .....!
+2022-01-02T14:31:10.481Z [right meow!] info: ::1 - - [02/Jan/2022:14:31:10 +0000] "POST /api/leads/ HTTP/1.1" 409 48 "-" "PostmanRuntime/7.26.8"
+
+2022-01-02T14:31:10.520Z [right meow!] error: uncaughtException: Cannot create property 'Symbol(level)' on string 'err : Cannot set headers after they are sent to the client'
+TypeError: Cannot create property 'Symbol(level)' on string 'err : Cannot set headers after they are sent to the client'
+    at DerivedLogger.log (/home/shyamlal/Documents/simplilearn/iva/node_modules/winston/lib/winston/logger.js:208:20)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:64:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-02T14:31:56.773Z [right meow!] info: File uploaded successfully
+2022-01-02T14:31:56.780Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:31:58.064Z [right meow!] info: File uploaded successfully
+2022-01-02T14:31:58.070Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:31:59.049Z [right meow!] info: File uploaded successfully
+2022-01-02T14:31:59.054Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:01.130Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:01.135Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:03.456Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:03.461Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:06.084Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:06.089Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:08.582Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:08.587Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:14.036Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:14.041Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:16.698Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:16.702Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:17.936Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:17.941Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:24.828Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:24.833Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:28.752Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:28.757Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:31.258Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:31.263Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:36.373Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:36.378Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:38.086Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:38.091Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:42.414Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:42.419Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:56.029Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:56.034Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:32:57.733Z [right meow!] info: File uploaded successfully
+2022-01-02T14:32:57.738Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:00.360Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:00.364Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:08.012Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:08.017Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:10.603Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:10.607Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:13.018Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:13.023Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:20.124Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:20.129Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:21.617Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:21.622Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:23.814Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:23.818Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:33.837Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:33.842Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:36.301Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:36.306Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:38.063Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:38.068Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:33:55.647Z [right meow!] info: File uploaded successfully
+2022-01-02T14:33:55.651Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:34:00.104Z [right meow!] info: File uploaded successfully
+2022-01-02T14:34:00.109Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:34:01.140Z [right meow!] info: File uploaded successfully
+2022-01-02T14:34:01.145Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:34:04.096Z [right meow!] info: File uploaded successfully
+2022-01-02T14:34:04.101Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:34:57.018Z [right meow!] info: File uploaded successfully
+2022-01-02T14:34:57.023Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:34:59.027Z [right meow!] info: File uploaded successfully
+2022-01-02T14:34:59.031Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:35:02.051Z [right meow!] info: File uploaded successfully
+2022-01-02T14:35:02.055Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:35:07.162Z [right meow!] error: uncaughtException: Cannot create property 'Symbol(level)' on string 'Cannot access 'data' before initialization'
+TypeError: Cannot create property 'Symbol(level)' on string 'Cannot access 'data' before initialization'
+    at DerivedLogger.log (/home/shyamlal/Documents/simplilearn/iva/node_modules/winston/lib/winston/logger.js:208:20)
+    at add (/home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:56:20)
+    at Layer.handle [as handle_request] (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/shyamlal/Documents/simplilearn/iva/node_modules/express/lib/router/index.js:174:3)
+2022-01-02T14:36:06.268Z [right meow!] info: File uploaded successfully
+2022-01-02T14:36:06.273Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:36:24.401Z [right meow!] info: File uploaded successfully
+2022-01-02T14:36:24.406Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:36:27.795Z [right meow!] info: File uploaded successfully
+2022-01-02T14:36:27.800Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:36:28.900Z [right meow!] info: File uploaded successfully
+2022-01-02T14:36:28.904Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:36:44.057Z [right meow!] info: [object SequelizeInstance:crmlead1s]
+2022-01-02T14:36:44.057Z [right meow!] warn: Conflicting data .....!
+2022-01-02T14:36:44.068Z [right meow!] info: ::1 - - [02/Jan/2022:14:36:44 +0000] "POST /api/leads/ HTTP/1.1" 409 48 "-" "PostmanRuntime/7.26.8"
+
+2022-01-02T14:36:44.097Z [right meow!] info: saved successfully
+2022-01-02T14:36:44.101Z [right meow!] error: uncaughtException: Cannot create property 'Symbol(level)' on string 'err : Cannot set headers after they are sent to the client'
+TypeError: Cannot create property 'Symbol(level)' on string 'err : Cannot set headers after they are sent to the client'
+    at DerivedLogger.log (/home/shyamlal/Documents/simplilearn/iva/node_modules/winston/lib/winston/logger.js:208:20)
+    at /home/shyamlal/Documents/simplilearn/iva/app/controllers/leads.controller.js:67:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-01-02T14:39:45.310Z [right meow!] info: File uploaded successfully
+2022-01-02T14:39:45.314Z [right meow!] info: Server is running on port 8080.
+2022-01-02T14:39:50.803Z [right meow!] info: data recieved successfully [object SequelizeInstance:crmlead1s]
+2022-01-02T14:39:50.825Z [right meow!] info: ::1 - - [02/Jan/2022:14:39:50 +0000] "GET /api/leads/75c81190-6ba3-11ec-bf05-e737ab3301d4 HTTP/1.1" 201 520 "-" "PostmanRuntime/7.26.8"
+

@@ -1,5 +1,5 @@
 module.exports = {
-    // HOST: "postgres",
+    // HOST: "postgres", fordocker
     HOST: "localhost",
     USER: "postgres",
     PASSWORD: "postgres",

@@ -10,6 +10,7 @@ Some of the good practices followed in this repository:
 # Async/Await support
 # Error Handling
 # Sequelize Support
+# Wintston Logger
 # Key technology used Nodjs, Express, Sequelize ORM ,PostgresSql DB,multer
 Enviroment variables to hold configuration values .env file
 i've followed airbnb Coding standard with a eslint ,help to keep thing into prespective.
@@ -75,3 +76,4 @@ References
 	https://www.npmjs.com/package/json2csv
 	https://www.npmjs.com/package/fast-csv
 	https://www.npmjs.com/package/express
+	https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
