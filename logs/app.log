@@ -415,3 +415,70 @@ TypeError: Cannot create property 'Symbol(level)' on string 'err : Cannot set he
 2022-01-02T14:39:50.803Z [right meow!] info: data recieved successfully [object SequelizeInstance:crmlead1s]
 2022-01-02T14:39:50.825Z [right meow!] info: ::1 - - [02/Jan/2022:14:39:50 +0000] "GET /api/leads/75c81190-6ba3-11ec-bf05-e737ab3301d4 HTTP/1.1" 201 520 "-" "PostmanRuntime/7.26.8"
 
+2022-01-03T05:23:45.332Z [right meow!] info: File uploaded successfully
+2022-01-03T05:23:45.337Z [right meow!] info: Server is running on port 8080.
+2022-01-03T05:23:54.792Z [right meow!] info: Server is running on port 8080.
+2022-01-03T05:26:01.420Z [right meow!] info: data recieved successfully [object Object]
+2022-01-03T05:26:01.421Z [right meow!] info: ::1 - - [03/Jan/2022:05:26:01 +0000] "GET /api/leads/ HTTP/1.1" 201 7170 "-" "PostmanRuntime/7.26.8"
+
+2022-01-03T05:27:16.846Z [right meow!] info: null
+2022-01-03T05:27:16.889Z [right meow!] info: saved successfully
+2022-01-03T05:27:16.890Z [right meow!] info: ::1 - - [03/Jan/2022:05:27:16 +0000] "POST /api/leads/ HTTP/1.1" 201 511 "-" "PostmanRuntime/7.26.8"
+
+2022-01-03T05:27:29.347Z [right meow!] info: data recieved successfully [object Object]
+2022-01-03T05:27:29.348Z [right meow!] info: ::1 - - [03/Jan/2022:05:27:29 +0000] "GET /api/leads/ HTTP/1.1" 201 7170 "-" "PostmanRuntime/7.26.8"
+
+2022-01-03T05:27:36.328Z [right meow!] info: data recieved successfully [object SequelizeInstance:crmlead1s]
+2022-01-03T05:27:36.331Z [right meow!] info: ::1 - - [03/Jan/2022:05:27:36 +0000] "GET /api/leads/75c81190-6ba3-11ec-bf05-e737ab3301d4 HTTP/1.1" 201 520 "-" "PostmanRuntime/7.26.8"
+
+2022-01-03T05:28:11.894Z [right meow!] info: succssfull deleted data related with id : f27e5260-6baa-11ec-8502-9741100ee39d
+2022-01-03T05:28:11.899Z [right meow!] info: ::1 - - [03/Jan/2022:05:28:11 +0000] "DELETE /api/leads/f27e5260-6baa-11ec-8502-9741100ee39d HTTP/1.1" 201 33 "-" "PostmanRuntime/7.26.8"
+
+2022-01-03T05:29:11.437Z [right meow!] info: retrieved record {
+  "id": "cd7b6d30-6bba-11ec-98e6-2bc0fca13e89",
+  "title": "Mr.",
+  "firstName": "Harry",
+  "lastName": "Peter",
+  "email": "harry14@gmail.com",
+  "assignee": "Rita",
+  "leadStatus": "yes",
+  "leadSource": "unknown",
+  "leadRating": 3,
+  "phone": "1234567890",
+  "companyName": "Satisfic",
+  "industry": "IT",
+  "adressLine1": "11 NP kHYALIWALA",
+  "adressLine2": "string",
+  "city": "Ramnagar",
+  "state": "Uttarakhand",
+  "country": "India",
+  "zipcode": null,
+  "createdAt": "2022-01-02T10:57:39.714Z",
+  "updatedAt": "2022-01-02T10:57:39.714Z"
+}
+2022-01-03T05:29:11.461Z [right meow!] info: updated record {
+  "id": "cd7b6d30-6bba-11ec-98e6-2bc0fca13e89",
+  "title": "Mrs",
+  "firstName": "Renu",
+  "lastName": "Chaudhary",
+  "email": "harry14@gmail.com",
+  "assignee": "Rita",
+  "leadStatus": "yes",
+  "leadSource": "unknown",
+  "leadRating": 3,
+  "phone": "1234567890",
+  "companyName": "Satisfic",
+  "industry": "IT",
+  "adressLine1": "11 NP kHYALIWALA",
+  "adressLine2": "string",
+  "city": "Ramnagar",
+  "state": "Uttarakhand",
+  "country": "India",
+  "zipcode": null,
+  "createdAt": "2022-01-02T10:57:39.714Z",
+  "updatedAt": "2022-01-03T05:29:11.438Z"
+}
+2022-01-03T05:29:11.465Z [right meow!] info: ::1 - - [03/Jan/2022:05:29:11 +0000] "PATCH /api/leads/cd7b6d30-6bba-11ec-98e6-2bc0fca13e89 HTTP/1.1" 201 511 "-" "PostmanRuntime/7.26.8"
+
+2022-01-03T05:37:06.186Z [info] info: Server is running on port 8080.
+2022-01-03T05:37:10.272Z [info] info: Server is running on port 8080.

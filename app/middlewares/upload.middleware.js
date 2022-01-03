@@ -19,5 +19,4 @@ var storage =  multer.diskStorage({
   },
 });
 var uploadFile = multer({ storage: storage, fileFilter: csvFilter });
-logger.info("File uploaded successfully");
 module.exports = uploadFile;

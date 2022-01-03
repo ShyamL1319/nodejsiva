@@ -36,7 +36,7 @@ var options = {
 
 var logger = new createLogger({
   format:combine(
-    label({ label: 'right meow!' }),
+    label({ label: 'info' }),
     timestamp(),
     myFormat
   ),
