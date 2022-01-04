@@ -7,15 +7,14 @@ const Leads = db.leads;
 const Op = db.Sequelize.Op;
 const getPagingData = (data, page, limit) => {
     const { count: leadsCount, rows: leadsData } = data;
-    const currentPage = page ? +page : 0;
+    const currentPage = page ? page : 1;
     const totalPages = Math.ceil(leadsCount / limit);
     return { leadsCount, leadsData, totalPages, currentPage };
   };
 
 const getPagination = (page, size) => {
-    const limit = size ? +size : 5;
-    const offset = page-1 ? page * limit : 0;
-  
+    const limit = size ? size : 5;
+    const offset = page ? page * limit : 0;
     return { limit, offset };
   };
 const  isEmailUnique = async (email)=> {
@@ -97,11 +96,11 @@ const leadController = {
         const { page, size, title } = req.query;
         var condition = title ? { title: { [Op.like]: `%${title}%` } } : null;
         const { limit, offset } = getPagination(page, size);
-        Leads.findAndCountAll({ where: condition? condition:"", limit, offset })
+        Leads.findAndCountAll({ where: condition ? condition:"", limit, offset })
             .then(data => {         
                 const lData = getPagingData(data, page, limit);
                 res.status(201).json(lData);
-                logger.info("data recieved successfully "+data)
+                logger.info("data recieved successfully ",data)
                 })
                 .catch(err => {
                 logger.info("Some error occurred while retrieving")
@@ -136,23 +135,23 @@ const leadController = {
               .on("end",() => {
                 logger.info("data read successfully now updating in data base");
                 var emails = leads.map(obj => (obj.email));
-                logger.info("emails to be updated : => "+emails)
+                logger.info("emails to be updated : => ", emails)
                 Leads.findAll({
                   where:{
                     email:emails
                   }
                 }).then((result)=>{
                   var duplicateData = result.map((data)=> data.dataValues)
-                  logger.info(duplicateData);
+                  logger.info("duplicates data",duplicateData);
 
                 duplicates = result.map((data)=> data.dataValues.email);
-                logger.info("duplicates "+duplicates);
+                logger.info("duplicates ",duplicates);
                 var leadtobeupdated = leads.filter(lead => {
                   if(duplicates.indexOf(lead.email) == -1)
                    return lead;
                 });
-                logger.info("lead to length "+leadtobeupdated.length);
-                logger.info("to be updated "+JSON.stringify(leadtobeupdated));
+                logger.info("lead to length ",leadtobeupdated.length);
+                logger.info("to be updated ",JSON.stringify(leadtobeupdated));
                 if(duplicates.length == 0 || duplicates.length != leads.length){
                   if(leadtobeupdated){
                     Leads.bulkCreate(leadtobeupdated,{ignoreDuplicates:true}).then((result)=>{
@@ -165,7 +164,7 @@ const leadController = {
                         });
                       }else{
                         logger.info("data read successfully now updated  in database and duplicate were there also");
-                        logger.info(duplicateData);
+                        logger.info("Else duplicate data",duplicateData);
                         var fields = ['id','title','firstName','lastName','email','assignee','leadStatus','leadSource','leadRating','phone','companyName','industry','adressLine1','adressLine2','city','state','country','zipcode','createdAt','createdAt'];
                         const parser = new Parser({fields});
                         var csv =  parser.parse(duplicateData);
@@ -218,7 +217,7 @@ const leadController = {
                 logger.info("Internal Server Error " +err.message);
                 res.status(500).json({
                   message:
-                  `Internal server issue ${err} `,
+                  `Internal server issue ${err.message} `,
                });
               });
             });
@@ -226,7 +225,7 @@ const leadController = {
             logger.info(error);
             res.status(500).json({
               message:
-              `Internal server issue ${error} `,
+              `Internal server issue ${error.message} `,
            });
         }
     },
@@ -270,7 +269,7 @@ const leadController = {
               }).catch((err)=>{
                     logger.info("Internal Server Error " +err.message);
                     res.status(500).send({msg:"Internal Server Error"+err.message});
-                    throw new Error(err);
+                    throw new Error(err.message);
               });
     },
     delete : (req,res)=>{

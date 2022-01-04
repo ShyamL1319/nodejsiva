@@ -2233,3 +2233,69 @@ SyntaxError: Unexpected token ':'
 
 2022-01-03T09:44:17.204Z [info] info: file saved path generated
 2022-01-03T09:44:42.577Z [info] info: Server is running on port 8080.
+2022-01-04T04:08:21.340Z [info] info: Server is running on port 8080.
+2022-01-04T04:08:32.286Z [info] info: data read successfully now updating in data base
+2022-01-04T04:08:32.286Z [info] info: emails to be updated : => 
+2022-01-04T04:08:32.337Z [info] info: duplicates data
+2022-01-04T04:08:32.338Z [info] info: duplicates 
+2022-01-04T04:08:32.338Z [info] info: lead to length 
+2022-01-04T04:08:32.338Z [info] info: to be updated 
+2022-01-04T04:08:32.339Z [info] info: luxami2@gmail.com,harry14@gmail.com,harry15@gmail.com,harry16@gmail.com,harry17@gmail.com,harry18@gmail.com,harry19@gmail.com,luxami20@gmail.com,luxami21@gmail.com,luxami62@gmail.com,luxami65@gmail.com,luxami64@gmail.com,harry63@gmail.com
+2022-01-04T04:08:32.341Z [info] info: file path jsontocsv
+2022-01-04T04:08:32.341Z [info] info: data read successfully All data were duplicate so no change in database
+2022-01-04T04:08:32.346Z [info] info: ::1 - - [04/Jan/2022:04:08:32 +0000] "POST /api/leads/bulk HTTP/1.1" 409 171 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:08:32.348Z [info] info: file saved path generated
+2022-01-04T04:11:39.018Z [info] info: data read successfully now updating in data base
+2022-01-04T04:11:39.019Z [info] info: emails to be updated : => 
+2022-01-04T04:11:39.062Z [info] info: duplicates data
+2022-01-04T04:11:39.062Z [info] info: duplicates 
+2022-01-04T04:11:39.062Z [info] info: lead to length 
+2022-01-04T04:11:39.062Z [info] info: to be updated 
+2022-01-04T04:11:39.373Z [info] info: data read successfully now updated  in database No duplicate were there
+2022-01-04T04:11:39.374Z [info] info: ::1 - - [04/Jan/2022:04:11:39 +0000] "POST /api/leads/bulk HTTP/1.1" 201 6287 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:12:06.073Z [info] info: null
+2022-01-04T04:12:06.092Z [info] info: saved successfully
+2022-01-04T04:12:06.093Z [info] info: ::1 - - [04/Jan/2022:04:12:06 +0000] "POST /api/leads/ HTTP/1.1" 201 512 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:12:21.023Z [info] info: data recieved successfully 
+2022-01-04T04:12:21.023Z [info] info: ::1 - - [04/Jan/2022:04:12:21 +0000] "GET /api/leads/?page=2 HTTP/1.1" 201 2454 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:12:49.583Z [info] info: data recieved successfully 
+2022-01-04T04:12:49.584Z [info] info: ::1 - - [04/Jan/2022:04:12:49 +0000] "GET /api/leads/?page=5 HTTP/1.1" 201 2457 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:13:02.349Z [info] info: data recieved successfully 
+2022-01-04T04:13:02.349Z [info] info: ::1 - - [04/Jan/2022:04:13:02 +0000] "GET /api/leads/?page=6 HTTP/1.1" 201 63 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:13:20.345Z [info] info: data recieved successfully 
+2022-01-04T04:13:20.346Z [info] info: ::1 - - [04/Jan/2022:04:13:20 +0000] "GET /api/leads/?page=7 HTTP/1.1" 201 63 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:13:51.315Z [info] info: data recieved successfully 
+2022-01-04T04:13:51.315Z [info] info: ::1 - - [04/Jan/2022:04:13:51 +0000] "GET /api/leads/?page=5 HTTP/1.1" 201 2457 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:15:46.856Z [info] info: data recieved successfully 
+2022-01-04T04:15:46.856Z [info] info: ::1 - - [04/Jan/2022:04:15:46 +0000] "GET /api/leads/?page=1 HTTP/1.1" 201 2443 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:17:55.931Z [info] info: data recieved successfully 
+2022-01-04T04:17:55.931Z [info] info: ::1 - - [04/Jan/2022:04:17:55 +0000] "GET /api/leads/ HTTP/1.1" 201 2443 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:18:49.443Z [info] info: data recieved successfully 
+2022-01-04T04:18:49.447Z [info] info: ::1 - - [04/Jan/2022:04:18:49 +0000] "GET /api/leads/?page=1 HTTP/1.1" 201 2443 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:19:04.299Z [info] info: data recieved successfully 
+2022-01-04T04:19:04.299Z [info] info: ::1 - - [04/Jan/2022:04:19:04 +0000] "GET /api/leads/?page=5 HTTP/1.1" 201 2457 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:20:53.377Z [info] info: Server is running on port 8080.
+2022-01-04T04:22:22.317Z [info] info: Server is running on port 8080.
+2022-01-04T04:23:06.032Z [info] info: Server is running on port 8080.
+2022-01-04T04:24:33.057Z [info] info: Server is running on port 8080.
+2022-01-04T04:25:52.388Z [info] info: Server is running on port 8080.
+2022-01-04T04:26:49.052Z [info] info: Server is running on port 8080.
+2022-01-04T04:27:24.938Z [info] info: Server is running on port 8080.
+2022-01-04T04:27:31.827Z [info] info: data recieved successfully 
+2022-01-04T04:27:31.829Z [info] info: ::1 - - [04/Jan/2022:04:27:31 +0000] "GET /api/leads/ HTTP/1.1" 201 2443 "-" "PostmanRuntime/7.26.8"
+
+2022-01-04T04:27:49.135Z [info] info: data recieved successfully 
+2022-01-04T04:27:49.136Z [info] info: ::1 - - [04/Jan/2022:04:27:49 +0000] "GET /api/leads/?page=1 HTTP/1.1" 201 2452 "-" "PostmanRuntime/7.26.8"
+
